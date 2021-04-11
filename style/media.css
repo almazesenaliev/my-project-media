@@ -1,0 +1,381 @@
+@media (max-width: 1800px) {
+    .media__header {
+        display: none;
+    }
+
+    .media {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .media__header {
+        display: none;
+    }
+
+    .media__menu {
+        display: none;
+    }
+
+
+    .media {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .header__inner {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .media__header {
+        display: block;
+        padding: 36px 40px 36px 36px;
+    }
+
+    .media__header-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .media__logo {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #252B42;
+    }
+
+    .fa-shopping-cart {
+        margin: 0 35px 0 25px;
+    }
+
+    .media__icon {
+        display: flex;
+    }
+
+    .burger__btn {
+        align-items: flex-end;
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        cursor: progress;
+    }
+
+    .burger__btn span:nth-child(1) {
+        display: inline-block;
+        width: 25px;
+        height: 3px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+    .burger__btn span:nth-child(2) {
+        display: inline-block;
+        width: 20px;
+        margin: 4px 0;
+        height: 3px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+    .burger__btn span:nth-child(3) {
+        display: inline-block;
+        width: 15px;
+        height: 3px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+    .burger__btn-active span:nth-child(2) {
+        width: 25px;
+        transform: rotate(-50deg);
+    }
+
+
+    .burger__btn-active span:nth-child(3) {
+        width: 25px;
+        height: 3px;
+        transform: rotate(50deg) translateY(-5px) translateX(-5px);
+    }
+
+    .media__menu {
+        text-align: center;
+        padding: 100px 0 0 0;
+    }
+
+    .media__menu-list {
+        list-style-type: none;
+    }
+
+    .media__menu-list_item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .media__menu-link {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 45px;
+        color: #737373;
+    }
+
+
+
+    #hero {
+        background: url("../style/media style/background/background.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-bottom: 200px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        margin: -30px 0;
+    }
+
+    .col-4 {
+        padding: 30px 0;
+    }
+
+    .item__hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        line-height: 57px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .hero__desc {
+        display: none;
+    }
+
+    .media {
+        display: block;
+        width: 280px;
+        text-align: center;
+    }
+
+    .btn__get-now {
+        display: flex;
+        margin: 0;
+        padding: 20px 23px 20px 23px;
+    }
+
+    .btn__learn-more {
+        display: flex;
+        margin: 25px 0 70px 0;
+        padding: 20px 23px 20px 23px;
+    }
+    
+
+
+
+
+    .hero__bottom-block {
+        position: static;
+    }
+
+    .hero__bottom__block-item {
+        position: static;
+    }
+
+    #why {
+        padding: 100px 0 100px 0 ;
+    }
+
+    .why__title {
+        margin: 0 auto;
+        width: 245px;
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .why__desc {
+        width: 225px;
+        margin: 10px 0 75px 0;
+        font-size: 14px;
+    }
+
+    .why__row {
+        flex-direction: column;
+        align-items: center;
+        margin: -30px 0;
+    }
+
+    .col-3 {
+        padding: 30px 0;
+    }
+
+    .why__item {
+        margin: 0;
+    }
+
+    #practice {
+        padding: 100px 0 100px 0;
+    }
+
+    .practice__title {
+        width: 245px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .practice__desc {
+        width: 230px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .service__title {
+        display: none;
+    }
+
+    .media__service {
+        display: block;
+        width: 315px;
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .service__desc {
+        width: 220px;
+    }
+
+    .item__service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-js[tabindex="-1"] {
+        width: 330px;
+    }
+
+    .video__title-hero {
+        padding-left: 0;
+    }
+
+
+    .icon__providing {
+        display: inline-block;
+    }
+
+
+    #partners {
+        padding-top: 100px;
+    }
+
+    .col-2 {
+        padding: 0;
+    }
+
+    .partners__item-title {
+        margin: 0;
+    }
+
+    .partners__subscribe {
+        margin: 0 auto;
+        position: relative;
+        width: 414px;
+        height: 212px;
+    }
+
+    .col-6 {
+        width: 70%;
+        padding: 0;
+    }
+
+    .subscribe__item {
+        width: 257px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+    }
+
+    #email {
+        width: 180px;
+    }
+
+    .foot {
+        display: none;
+    }
+
+    .contact__desc {
+        width: 264px;
+    }
+
+    .row__contact {
+        flex-direction: column;
+    }
+
+    .contact__administration {
+        margin: 0 60px;
+        display: flex;
+    }
+
+    .consulting__item {
+        display: block;
+    }
+
+    .consulting__title {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .consulting__desc {
+        width: 184px;
+        margin: 20px auto;
+    }
+
+    .consulting__btn {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .foot__menu-row {
+        padding: -20px 0;
+    }
+
+    .col-2 {
+        margin: 20px 0;
+        width:25%;
+    }
+
+    .footer__item {
+        display: block;
+    }
+
+    .footer__desc {
+        width: 240px;
+        display: block;
+        margin: 20px auto 20px auto;
+    }
+
+    .footer__social-icon {
+        text-align: center;
+    }
+
+    .footer__icon {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 468px) {
+}
+
